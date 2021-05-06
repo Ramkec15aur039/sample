@@ -1,0 +1,248 @@
+/*
+Bootstrap class
+*/
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2)
+}
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%
+}
+.col-md-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%
+}
+
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%
+}
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 25%
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%
+}
+
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%
+}
+
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%
+}
+
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 75%
+}
+
+.col-md-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%
+}
+
+.col-md-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%
+}
+
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px
+    }
+}
+
+@media (min-width:1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px
+    }
+}
+.mt-1 {
+    margin-top: .25rem !important
+}
+
+.mt-2 {
+    margin-top: .5rem !important
+}
+
+.mt-3 {
+    margin-top: 1rem !important
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important
+}
+
+.mt-5 {
+    margin-top: 3rem !important
+}
+.text-center {
+    text-align: center !important
+}
+/*Custom CSS*/
+.dropDown-main{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+.card{
+    border: 1px solid rgba(30, 30, 240, 0.568);
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 80px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 20px 0 20px 0;
+    position: relative;
+}
+.card-inner{
+    width: 70px;
+    height: 50px;
+    border: 1px solid rgba(151, 183, 241, 0.185);
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.card-inner h2{
+    font-weight: lighter;
+    margin-top: 10px;
+}
